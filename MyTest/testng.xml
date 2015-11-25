@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MySuite1" verbose="1" >
+    <test name="Regression1">
+        <classes>
+            <class name="MyNewTest">
+                <methods>
+                    <include name="MyTestMethod1"/>
+                    <include name="MyTestMethod2"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

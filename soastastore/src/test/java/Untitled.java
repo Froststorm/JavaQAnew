@@ -7,10 +7,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-/**
- * Created by kip_notebook on 22.11.2015.
- */
-
+/
 public class Untitled {
     private WebDriver driver;
     private String baseUrl;
