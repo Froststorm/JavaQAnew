@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bfe0525-c4de-4e3a-8fbe-e6d3d4d1a705" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MyNewTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyNewTest.java" />
-    </list>
+    <list default="true" id="6bfe0525-c4de-4e3a-8fbe-e6d3d4d1a705" name="Default" comment="" />
     <ignored path="MyTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="MyNewTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63814616">
-              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.60784316">
+              <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#545#553#0" expanded="true" />
@@ -644,7 +642,7 @@
       <updated>1448509738554</updated>
       <workItem from="1448509739804" duration="3692000" />
       <workItem from="1448514179812" duration="4281000" />
-      <workItem from="1448547267596" duration="8619000" />
+      <workItem from="1448547267596" duration="9411000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1448555878937</created>
@@ -688,7 +686,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16592000" />
+    <option name="totallyTimeSpent" value="17384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="3" width="1600" height="1000" extended-state="0" />
@@ -854,8 +852,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63814616">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.60784316">
+          <caret line="37" column="68" selection-start-line="37" selection-start-column="68" selection-end-line="37" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#545#553#0" expanded="true" />
