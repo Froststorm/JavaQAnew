@@ -1,126 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7432ddc-873f-46c3-83b6-21f5771220b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Main/out/production/Main/com/example/tests/MyTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/MyNewTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/description.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__io_netty_netty_3_5_2_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__net_java_dev_jna_jna_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__net_java_dev_jna_platform_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_15.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_apache_commons_commons_exec_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_eclipse_jetty_jetty_websocket_8_1_15_v20140411.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_45_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_testng_testng_6_8_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__org_webbitserver_webbit_0_4_14.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/selenium-app.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/main/java/com/selenium/test/configuration/TestsConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/main/java/com/selenium/test/configuration/properties/PropertiesLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/main/java/com/selenium/test/configuration/properties/Property.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/main/java/com/selenium/test/configuration/properties/PropertyFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/main/java/com/selenium/test/exceptions/TestsConfigurationException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/main/java/com/selenium/test/utils/TimeUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/main/java/com/selenium/test/webtestsbase/BasePage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/main/java/com/selenium/test/webtestsbase/Browser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/main/java/com/selenium/test/webtestsbase/CapabilitiesGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/main/java/com/selenium/test/webtestsbase/WebDriverFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/test/java/Untitled.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/test/java/com/selenium/test/junit/rules/ScreenShotOnFailRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/test/java/com/selenium/test/junit/tests/PageObjectTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/test/java/com/selenium/test/junit/tests/SimpleTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/test/java/com/selenium/test/pages/YouTubePage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/test/java/com/selenium/test/pages/YouTubeSearchResultsPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/test/java/com/selenium/test/testng/listeners/ScreenShotOnFailListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/test/java/com/selenium/test/testng/tests/PageObjectTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/test/java/com/selenium/test/testng/tests/SimpleTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/src/test/resources/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/configuration/TestsConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/configuration/properties/PropertiesLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/configuration/properties/Property.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/configuration/properties/PropertyFile.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/exceptions/TestsConfigurationException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/utils/TimeUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/webtestsbase/BasePage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/webtestsbase/Browser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/webtestsbase/CapabilitiesGenerator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/webtestsbase/CapabilitiesGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/webtestsbase/WebDriverFactory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/classes/com/selenium/test/webtestsbase/WebDriverFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/Untitled.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/com/selenium/test/junit/rules/ScreenShotOnFailRule$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/com/selenium/test/junit/rules/ScreenShotOnFailRule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/com/selenium/test/junit/tests/PageObjectTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/com/selenium/test/junit/tests/SimpleTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/com/selenium/test/pages/YouTubePage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/com/selenium/test/pages/YouTubeSearchResultsPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/com/selenium/test/testng/listeners/ScreenShotOnFailListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/com/selenium/test/testng/tests/PageObjectTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/com/selenium/test/testng/tests/SimpleTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soastastore/target/test-classes/config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/out/production/untitled2/PalindromeChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/out/production/untitled2/PalindromeCheckerTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/src/PalindromeChecker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/src/PalindromeCheckerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../untitled2/untitled2.iml" afterPath="" />
+    <list default="true" id="c7432ddc-873f-46c3-83b6-21f5771220b8" name="Default" comment="test">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <manually-removed-from-ignored>
       <directory path="$PROJECT_DIR$/out/" />
@@ -182,6 +64,11 @@
     </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="52db3d8ca5ba5dfe4553e51dc2b3665dcc279546" />
+      </map>
+    </option>
     <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
   <component name="GradleLocalSettings">
@@ -658,11 +545,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56395996" sideWeight="0.50215286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56395996" sideWeight="0.49784714" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56395996" sideWeight="0.49784714" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3737486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
