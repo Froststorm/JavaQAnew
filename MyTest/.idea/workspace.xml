@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bfe0525-c4de-4e3a-8fbe-e6d3d4d1a705" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/MyNewTest.class" afterPath="$PROJECT_DIR$/target/test-classes/MyNewTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MyNewTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyNewTest.java" />
     </list>
     <ignored path="MyTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +28,11 @@
       <file leaf-file-name="MyNewTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.36121">
-              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.090747334">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#570#578#0" expanded="true" />
                 <element signature="e#2779#2780#0" expanded="true" />
                 <element signature="e#2809#2810#0" expanded="true" />
               </folding>
@@ -58,6 +57,14 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="07cd9f7b59c8c313a7b464810edde1cc4dad48f4" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -687,7 +694,7 @@
       <workItem from="1448509739804" duration="3692000" />
       <workItem from="1448514179812" duration="4281000" />
       <workItem from="1448547267596" duration="14183000" />
-      <workItem from="1448597446199" duration="2971000" />
+      <workItem from="1448597446199" duration="3533000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1448555878937</created>
@@ -701,7 +708,19 @@
       <option name="project" value="LOCAL" />
       <updated>1448562426021</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Рабочий билд прокликивающий первый уровень с выводом времени загрузки страницы и тайтлом">
+      <created>1448600472062</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1448600472062</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Подправил название листа(без ворнинга)">
+      <created>1448600799857</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1448600799857</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -737,7 +756,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25127000" />
+    <option name="totallyTimeSpent" value="25689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="269" y="22" width="1600" height="1000" extended-state="0" />
@@ -745,11 +764,11 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.49741602" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287827" sideWeight="0.50516796" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287827" sideWeight="0.49483204" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24687144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -782,7 +801,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="123" />
     <MESSAGE value="Добавил строку вывода в консоль" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил строку вывода в консоль" />
+    <MESSAGE value="Рабочий билд прокликивающий первый уровень с выводом времени загрузки страницы и тайтлом" />
+    <MESSAGE value="Подправил название листа(без ворнинга)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подправил название листа(без ворнинга)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -801,6 +822,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#570#578#0" expanded="true" />
             <element signature="e#2779#2780#0" expanded="true" />
             <element signature="e#2809#2810#0" expanded="true" />
           </folding>
@@ -813,6 +835,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#570#578#0" expanded="true" />
             <element signature="e#2779#2780#0" expanded="true" />
             <element signature="e#2809#2810#0" expanded="true" />
           </folding>
@@ -825,6 +848,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#570#578#0" expanded="true" />
             <element signature="e#2779#2780#0" expanded="true" />
             <element signature="e#2809#2810#0" expanded="true" />
           </folding>
@@ -905,10 +929,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.36121">
-          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.090747334">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#570#578#0" expanded="true" />
             <element signature="e#2779#2780#0" expanded="true" />
             <element signature="e#2809#2810#0" expanded="true" />
           </folding>
