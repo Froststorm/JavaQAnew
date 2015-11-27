@@ -694,7 +694,7 @@
       <workItem from="1448509739804" duration="3692000" />
       <workItem from="1448514179812" duration="4281000" />
       <workItem from="1448547267596" duration="14183000" />
-      <workItem from="1448597446199" duration="3533000" />
+      <workItem from="1448597446199" duration="3563000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1448555878937</created>
@@ -720,7 +720,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448600799857</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Подправил название листа(без ворнинга)">
+      <created>1448601000122</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1448601000122</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -756,7 +762,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25689000" />
+    <option name="totallyTimeSpent" value="25719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="269" y="22" width="1600" height="1000" extended-state="0" />
