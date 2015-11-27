@@ -16,20 +16,9 @@ public class MyNewTest {
 
         String baseUrl = "https://www.yahoo.com/";
         String moreYahoo = "//a[contains(text(),'More Yahoo Sites')]";
-        List<String> firsLevelList;
         List<String> secondLevelList;
 
         {
-            /** секция инициализации списков
-             *временно не нужно а там посмотрим
-
-             firsLevelList = new ArrayList<String>(Arrays.asList("//li[1]/a/span",
-             "//li[2]/a/span", "//li[3]/a/span", "//li[4]/a/span", "//li[5]/a/span",
-             "//li[6]/a/span", "//li[7]/a/span", "//li[8]/a/span", "//li[9]/a/span",
-             "//li[10]/a/span", "//li[11]/a/span", "//li[12]/a/span", "//li[13]/a/span",
-             "//li[14]/a/span", "//li[15]/a/span", "//li[16]/a/span", "//li[17]/a/span",
-             "//li[18]/a/span", "//li[19]/a/span"));
-             */
             secondLevelList = new ArrayList<String>(Arrays.asList("(//a[contains(text(),'Answers')])[2]",
                     "//a[contains(text(),'Careers')]", "(//a[contains(text(),'Celebrity')])[2]",
                     "//a[contains(text(),'Fantasy Baseball')]", "//a[contains(text(),'Fantasy Sports')]",
@@ -45,6 +34,7 @@ public class MyNewTest {
         @BeforeTest
         public void beforeTestMethod () {
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+            driver.manage().window().maximize();
             driver.get(baseUrl);
         }
 
@@ -71,6 +61,7 @@ public class MyNewTest {
                         e.printStackTrace();
                     }
                     driver.get(baseUrl);
+
 
                 } else {
                     driver.findElement(By.xpath("//li[" + i + "]/a/span")).click();
