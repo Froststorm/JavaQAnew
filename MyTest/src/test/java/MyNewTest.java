@@ -49,9 +49,9 @@ public class MyNewTest {
 
     @Test(priority = 1)
     /**
-     * Метод прокликивает,пока что, лист первого уровня с проверкой времени загрузки страниуцы.Вывод в консоль
-     * времни загрузки страницы и сообщения о выходе за пределы таймаута
-     * */
+     * Метод прокликивает,пока что, лист первого уровня с проверкой времени загрузки страницы.Вывод в консоль
+     * времени загрузки страницы и сообщения о выходе за пределы
+     */
 
     public void MyTestMethod1() {
 
@@ -78,11 +78,11 @@ public class MyNewTest {
                     e.printStackTrace();
                 }
                 driver.get(baseUrl);
-//                driver.findElement(By.xpath(home)).click();
+//                driver.findElement(By.xpath(home)).click(); почему то он этот xpath не есть а кликает куда ни попадя, сдела так пока что
             }
 
             long endTime = System.currentTimeMillis() / 1000;
-//            System.out.println(" The end time is : " + endTime);
+//            System.out.println(" The end time is : " + endTime);  думаю оно тут не нужно .
             System.out.println("Page load time in seconds " + (endTime - startTime));
 
             if (endTime - startTime > 7) {
@@ -97,7 +97,7 @@ public class MyNewTest {
     @Test(priority = 2)
     public void MyTestMethod2() {
         /**
-         *Пока что закомнтил стрроки второго теста что бы понять могу ли я сделать проверку второго листа
+         *Пока что закоментил строки второго теста что бы понять могу ли я сделать проверку второго листа
          * в первом тесте тоже и упростить таки первый тест
          */
 
