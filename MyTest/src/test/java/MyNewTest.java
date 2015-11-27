@@ -1,3 +1,4 @@
+import com.sun.xml.internal.bind.v2.TODO;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -21,6 +22,8 @@ public class MyNewTest {
     List<String> secondLevelList;
 
     {
+    /** секция инициализации списков
+     */
         firsLevelList = new ArrayList<String>(Arrays.asList("//li[1]/a/span",
                 "//li[2]/a/span", "//li[3]/a/span", "//li[4]/a/span", "//li[5]/a/span",
                 "//li[6]/a/span", "//li[7]/a/span", "//li[8]/a/span", "//li[9]/a/span",
@@ -53,8 +56,11 @@ public class MyNewTest {
      * времени загрузки страницы и сообщения о выходе за пределы
      */
 
-    public void MyTestMethod1() {
 
+    public void MyTestMethod1() {
+        /*
+        TODO сделать прокликивание второго списка в первом тесте
+        * */
         for (int i = 0; i < firsLevelList.size(); i++) {
             long startTime = System.currentTimeMillis() / 1000;
             System.out.println(" The start time is : " + startTime);
