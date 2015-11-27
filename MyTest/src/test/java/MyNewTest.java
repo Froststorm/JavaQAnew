@@ -21,13 +21,16 @@ public class MyNewTest {
 
     {
     /** секция инициализации списков
-     */
+     *временно не нужно а там посмотрим
         firsLevelList = new ArrayList<String>(Arrays.asList("//li[1]/a/span",
                 "//li[2]/a/span", "//li[3]/a/span", "//li[4]/a/span", "//li[5]/a/span",
                 "//li[6]/a/span", "//li[7]/a/span", "//li[8]/a/span", "//li[9]/a/span",
                 "//li[10]/a/span", "//li[11]/a/span", "//li[12]/a/span", "//li[13]/a/span",
                 "//li[14]/a/span", "//li[15]/a/span", "//li[16]/a/span", "//li[17]/a/span",
                 "//li[18]/a/span", "//li[19]/a/span"));
+*/
+
+
 
         secondLevelList = new ArrayList<String>(Arrays.asList("(//a[contains(text(),'Answers')])[2]",
                 "//a[contains(text(),'Careers')]", "(//a[contains(text(),'Celebrity')])[2]",
@@ -59,11 +62,11 @@ public class MyNewTest {
         /*
         TODO сделать прокликивание второго списка в первом тесте
         * */
-        for (int i = 0; i < firsLevelList.size(); i++) {
+        for (int i = 1; i <= 19; i++) {
             long startTime = System.currentTimeMillis() / 1000;
             System.out.println(" The start time is : " + startTime);
             if (i == 0 || i == 8) {
-                driver.findElement(By.xpath(firsLevelList.get(i))).click();
+                driver.findElement(By.xpath("//li[" + i + "]/a/span")).click();
                 System.out.println(driver.getTitle());
                 try {
                     TimeUnit.SECONDS.sleep(1);
@@ -73,8 +76,9 @@ public class MyNewTest {
                 driver.get(baseUrl);
 
 
+
             } else {
-                driver.findElement(By.xpath(firsLevelList.get(i))).click();
+                driver.findElement(By.xpath("//li[" + i + "]/a/span")).click();
                 System.out.println(driver.getTitle());
                 try {
                     TimeUnit.SECONDS.sleep(1);
@@ -94,7 +98,7 @@ public class MyNewTest {
             } else {
                 System.out.println("Page load time normal");
             }
-            System.out.println(firsLevelList.get(i) + " Pass :" + (i + 1));
+            System.out.println(" //li[" + i + "]/a/span " + " Pass :" + (i + 1));
         }
     }
 
