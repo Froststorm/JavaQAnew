@@ -69,7 +69,7 @@ public class MyNewTest {
             } else {
                 System.out.println("Page load time normal");
             }
-            System.out.println(myCoolList.get(i) + " Pass :" + i);
+            System.out.println(myCoolList.get(i) + " Pass :" + i+1);
         }
     }
 
