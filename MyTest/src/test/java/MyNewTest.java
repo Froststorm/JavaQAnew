@@ -17,7 +17,7 @@ public class MyNewTest {
 
     String baseUrl = "https://www.yahoo.com/";
     String home = "//*[@id='yucs-top-home']/a/b";
-    List<String> myCoolList = new ArrayList<String>(Arrays.asList("//li[1]/a/span",
+    List<String> firsLevelList = new ArrayList<String>(Arrays.asList("//li[1]/a/span",
             "//li[2]/a/span", "//li[3]/a/span", "//li[4]/a/span", "//li[5]/a/span",
             "//li[6]/a/span", "//li[7]/a/span", "//li[8]/a/span", "//li[9]/a/span",
             "//li[10]/a/span", "//li[11]/a/span", "//li[12]/a/span", "//li[13]/a/span",
@@ -30,15 +30,14 @@ public class MyNewTest {
         driver.get(baseUrl);
     }
 
-
     @Test
     public void MyTestMethod1() {
 
-        for (int i = 0; i < myCoolList.size(); i++) {
+        for (int i = 0; i < firsLevelList.size(); i++) {
             long startTime = System.currentTimeMillis() / 1000;
             System.out.println(" The start time is : " + startTime);
             if (i == 0 || i == 8) {
-                driver.findElement(By.xpath(myCoolList.get(i))).click();
+                driver.findElement(By.xpath(firsLevelList.get(i))).click();
                 System.out.println(driver.getTitle());
                 try {
                     TimeUnit.SECONDS.sleep(1);
@@ -49,7 +48,7 @@ public class MyNewTest {
 
 
             } else {
-                driver.findElement(By.xpath(myCoolList.get(i))).click();
+                driver.findElement(By.xpath(firsLevelList.get(i))).click();
                 System.out.println(driver.getTitle());
                 try {
                     TimeUnit.SECONDS.sleep(1);
@@ -69,7 +68,7 @@ public class MyNewTest {
             } else {
                 System.out.println("Page load time normal");
             }
-            System.out.println(myCoolList.get(i) + " Pass :" + i+1);
+            System.out.println(firsLevelList.get(i) + " Pass :" + (i+1));
         }
     }
 
