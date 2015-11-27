@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MyTest:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6bfe0525-c4de-4e3a-8fbe-e6d3d4d1a705" name="Default" comment="Добавил пару комментов">
+    <list default="true" id="6bfe0525-c4de-4e3a-8fbe-e6d3d4d1a705" name="Default" comment="сделал вмсто списка 1уровня итерацию в цикле">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/MyNewTest.class" afterPath="$PROJECT_DIR$/target/test-classes/MyNewTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyTest.iml" afterPath="$PROJECT_DIR$/MyTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MyNewTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyNewTest.java" />
     </list>
     <ignored path="MyTest.iws" />
@@ -29,13 +37,21 @@
       <file leaf-file-name="MyNewTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2781955">
-              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.6771653">
+              <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
               <folding>
-                <element signature="e#4412#4414#0" expanded="false" />
-                <element signature="e#6071#6072#0" expanded="true" />
-                <element signature="e#6101#6102#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,6 +78,7 @@
         <entry key="$PROJECT_DIR$/.." value="07cd9f7b59c8c313a7b464810edde1cc4dad48f4" />
       </map>
     </option>
+    <option name="RESET_MODE" value="MIXED" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -78,6 +95,8 @@
         <option value="$PROJECT_DIR$/src/test/List.java" />
         <option value="$PROJECT_DIR$/src/test/java/List.java" />
         <option value="$PROJECT_DIR$/src/test/java/NewList.java" />
+        <option value="$PROJECT_DIR$/target/test-classes/MyNewTest.class" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/MyNewTest.java" />
       </list>
     </option>
@@ -90,7 +109,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
+        <option name="mavenHome" value="C:/Program Files/Java/maven" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -99,11 +118,14 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1048" />
+    <option name="x" value="406" />
+    <option name="y" value="37" />
+    <option name="width" value="1495" />
+    <option name="height" value="836" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -146,12 +168,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyTest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -188,22 +230,27 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="I:/Downloads/#Prog/selenium.jar!/" />
+    <property name="last_opened_file_path" value="I:/Downloads/#Prog/IDE/maven-surefire-plugin-2.19.jar!/" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16551724" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="mytest" />
   </component>
-  <component name="RunManager" selected="TestNG.MyNewTest">
+  <component name="RunManager" selected="TestNG.MyNewTest.MyTestMethod1">
     <configuration default="false" name="MyNewTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MyTest" />
@@ -676,8 +723,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.MyNewTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.MyNewTest.MyTestMethod1" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.MyNewTest.MyTestMethod1" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.MyNewTest" />
       </list>
     </recent_temporary>
   </component>
@@ -695,7 +742,10 @@
       <workItem from="1448514179812" duration="4281000" />
       <workItem from="1448547267596" duration="14183000" />
       <workItem from="1448597446199" duration="3563000" />
-      <workItem from="1448601487854" duration="6517000" />
+      <workItem from="1448601487854" duration="8574000" />
+      <workItem from="1448614819909" duration="8299000" />
+      <workItem from="1448623885330" duration="2777000" />
+      <workItem from="1448640341084" duration="514000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1448555878937</created>
@@ -757,43 +807,79 @@
       <option name="project" value="LOCAL" />
       <updated>1448609123598</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Добавил пару комментов">
+      <created>1448609759610</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1448609759610</updated>
+    </task>
+    <task id="LOCAL-00012" summary="some little changes">
+      <created>1448610158959</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1448610158959</updated>
+    </task>
+    <task id="LOCAL-00013" summary="some little changes">
+      <created>1448611020709</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1448611020709</updated>
+    </task>
+    <task id="LOCAL-00014" summary="сделал вмсто списка 1уровня итерацию в цикле">
+      <created>1448615860791</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1448615860791</updated>
+    </task>
+    <task id="LOCAL-00015" summary="подчистил немного">
+      <created>1448624294500</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1448624294500</updated>
+    </task>
+    <task id="LOCAL-00016" summary="smallchanges">
+      <created>1448633895216</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1448633895216</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyNewTest - 2015.11.27 at 06h 41m 30s.xml">
+    <history-entry file="MyNewTest - 2015.11.27 at 11h 15m 41s.xml">
       <configuration name="MyNewTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyNewTest - 2015.11.27 at 06h 44m 13s.xml">
+    <history-entry file="MyNewTest - 2015.11.27 at 11h 17m 24s.xml">
       <configuration name="MyNewTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyNewTest - 2015.11.27 at 06h 46m 04s.xml">
+    <history-entry file="MyNewTest - 2015.11.27 at 11h 48m 49s.xml">
       <configuration name="MyNewTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyNewTest - 2015.11.27 at 06h 51m 26s.xml">
+    <history-entry file="MyNewTest - 2015.11.27 at 11h 51m 19s.xml">
       <configuration name="MyNewTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyNewTest - 2015.11.27 at 06h 53m 10s.xml">
+    <history-entry file="MyNewTest - 2015.11.27 at 11h 52m 28s.xml">
       <configuration name="MyNewTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyNewTest - 2015.11.27 at 06h 59m 50s.xml">
+    <history-entry file="MyNewTest - 2015.11.27 at 11h 55m 02s.xml">
       <configuration name="MyNewTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyNewTest - 2015.11.27 at 07h 19m 04s.xml">
-      <configuration name="MyNewTest" configurationId="TestNG" />
+    <history-entry file="MyNewTest_MyTestMethod1 - 2015.11.27 at 13h 35m 42s.xml">
+      <configuration name="MyNewTest.MyTestMethod1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyNewTest - 2015.11.27 at 07h 21m 48s.xml">
-      <configuration name="MyNewTest" configurationId="TestNG" />
+    <history-entry file="MyNewTest_MyTestMethod1 - 2015.11.27 at 16h 13m 58s.xml">
+      <configuration name="MyNewTest.MyTestMethod1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyNewTest - 2015.11.27 at 08h 16m 13s.xml">
-      <configuration name="MyNewTest" configurationId="TestNG" />
+    <history-entry file="MyNewTest_MyTestMethod1 - 2015.11.27 at 18h 09m 27s.xml">
+      <configuration name="MyNewTest.MyTestMethod1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MyNewTest - 2015.11.27 at 08h 19m 01s.xml">
-      <configuration name="MyNewTest" configurationId="TestNG" />
+    <history-entry file="MyNewTest_MyTestMethod1 - 2015.11.27 at 18h 11m 20s.xml">
+      <configuration name="MyNewTest.MyTestMethod1" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32236000" />
+    <option name="totallyTimeSpent" value="45883000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -805,22 +891,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1048" extended-state="6" />
+    <frame x="406" y="37" width="1495" height="836" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.49573562" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.4904051" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.4936034" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32362458" sideWeight="0.45628998" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2524272" sideWeight="0.36034116" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25034964" sideWeight="0.45322245" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2524272" sideWeight="0.63965887" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24595469" sideWeight="0.49307036" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25034964" sideWeight="0.54677755" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27412587" sideWeight="0.62092865" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286638" sideWeight="0.48933902" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12153518" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21413721" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -831,6 +916,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -851,13 +937,25 @@
     <MESSAGE value="Подправил название листа(без ворнинга)" />
     <MESSAGE value="Подправил выводсчетчика тест пассов" />
     <MESSAGE value="Добавил лист второго уровня и закомментированный 2й тест.." />
-    <MESSAGE value="Добавил пару комментов" />
     <MESSAGE value="поправил комменты" />
-    <option name="LAST_COMMIT_MESSAGE" value="поправил комменты" />
+    <MESSAGE value="Добавил пару комментов" />
+    <MESSAGE value="some little changes" />
+    <MESSAGE value="сделал вмсто списка 1уровня итерацию в цикле" />
+    <MESSAGE value="подчистил немного" />
+    <MESSAGE value="smallchanges" />
+    <option name="LAST_COMMIT_MESSAGE" value="smallchanges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.9/testng-6.9.9.jar!/org/testng/asserts/Assertion.class</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -869,11 +967,34 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4412#4414#0" expanded="false" />
-            <element signature="e#6071#6072#0" expanded="true" />
-            <element signature="e#6101#6102#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,9 +1004,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4412#4414#0" expanded="false" />
-            <element signature="e#6071#6072#0" expanded="true" />
-            <element signature="e#6101#6102#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -895,9 +1014,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4412#4414#0" expanded="false" />
-            <element signature="e#6071#6072#0" expanded="true" />
-            <element signature="e#6101#6102#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -907,9 +1024,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4412#4414#0" expanded="false" />
-            <element signature="e#6071#6072#0" expanded="true" />
-            <element signature="e#6101#6102#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -918,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="445" column="22" selection-start-line="445" selection-start-column="22" selection-end-line="445" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.148">
           <caret line="547" column="46" selection-start-line="546" selection-start-column="7" selection-end-line="547" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,15 +1109,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.9/testng-6.9.9.jar!/org/testng/asserts/IAssert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5185184">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.9/testng-6.9.9.jar!/org/testng/asserts/Assertion.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8550296">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.9/testng-6.9.9.jar!/org/testng/collections/CollectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15088758">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.9/testng-6.9.9.jar!/org/testng/collections/Lists.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17989418">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTest.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://I:/Downloads/#Prog/IDE/maven-surefire-plugin-2.19.jar!/org/apache/maven/plugin/surefire/SurefirePlugin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.25044093">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2781955">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.6771653">
+          <caret line="60" column="34" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
           <folding>
-            <element signature="e#4412#4414#0" expanded="false" />
-            <element signature="e#6071#6072#0" expanded="true" />
-            <element signature="e#6101#6102#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,10 +1176,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>MyTest:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.16551724" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
