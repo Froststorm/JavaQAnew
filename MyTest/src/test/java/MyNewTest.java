@@ -17,19 +17,20 @@ public class MyNewTest {
     WebDriver driver = new FirefoxDriver();
 
     String strBaseUrl = "https://www.yahoo.com/";
-    String strMoreYahoo = "More Yahoo Sites";
+    String strMoreYahoo = "//*[@id='Navigation']//a[@class='fz-xxs more-link rapidnofollow']";
     String strAllYahoo = "https://everything.yahoo.com/";
     String strFirstLevelList = "//*[@id='default-p_30345789-bd']/ul[1]/li[*]/a/span";
     String strThirdLevelList = "//*[@id='main-mod']/div[*]/dl[*]/dd[*]/a";
+    String strSecondLevelList="//*[@id='Navigation']//li//li//a";
 
     List<String> lstSecondLevelList = new ArrayList<String>(Arrays.asList("(//a[contains(text(),'Answers')])[2]",
-            "//li[21]/div/div/ul/li[2]/a", ".//*[@id='yui_3_8_1_1_1448781627072_817']/div/div/ul/li[3]/a", "(//a[contains(text(),'Fantasy Baseball')]",
-            "(//a[contains(text(),'Fantasy Sports')]", "(//a[contains(text(),'Flickr')])[2]", "(//a[contains(text(),'Games')])[2]",
+            "//a[contains(text(),'Careers')]", "(//a[contains(text(),'Celebrity')])[2]", "//a[contains(text(),'Fantasy Baseball')]",
+            "//a[contains(text(),'Fantasy Sports')]", "(//a[contains(text(),'Flickr')])[2]", "(//a[contains(text(),'Games')])[2]",
             "(//a[contains(text(),'Groups')])[2]", "(//a[contains(text(),'Horoscopes')]", "(//a[contains(text(),'Local')]",
             "//a[contains(text(),'Messenger')]", "(//a[contains(text(),'Music')])[2]", "(//a[contains(text(),'My Yahoo')])[2]",
             "(//a[contains(text(),'Search')])[2]", "(//a[contains(text(),'Small Business')]"));
 
-    List<Object> lstIterateLevels = new ArrayList<Object>(Arrays.asList(strFirstLevelList,strThirdLevelList));
+    List<Object> lstIterateLevels = new ArrayList<Object>(Arrays.asList(strSecondLevelList,strFirstLevelList,strThirdLevelList));
 
 
     @BeforeTest
@@ -41,7 +42,7 @@ public class MyNewTest {
 
     }
 
-    @Test(priority = 2)
+    @Test(priority = 0)
     public void TestMethod1() {
 
         /**
@@ -50,10 +51,11 @@ public class MyNewTest {
          */
         for (Object lstIterateLevel : lstIterateLevels) {
             String item = (String) lstIterateLevel;
-            List<WebElement> allElementsList = driver.findElements(By.xpath(item));
-            for (int i = 0; true; i++) {
 
-                System.out.println(allElementsList.size());                                               //Здесь выводится размер листа
+            for (int i = 0; true; i++) {
+                List<WebElement> allElementsList = driver.findElements(By.xpath(item));
+
+                System.out.println(lstIterateLevel);                                               //Здесь выводится размер листа
 
                 if (i >= allElementsList.size())                                                          //Здесь должен быть размер списка для прокликивания
                     break;
@@ -90,7 +92,7 @@ public class MyNewTest {
         }
     }
 
-    @Test(priority = 0)
+    @Test(priority = 1)
     public void TestMethod2() throws Exception {
 
 
@@ -98,8 +100,12 @@ public class MyNewTest {
         while (true) {
             System.out.println(lstSecondLevelList.get(i)+"\n");
 
-            driver.findElement(By.linkText(strMoreYahoo)).click();
-
+            driver.findElement(By.xpath(strMoreYahoo)).click();
+            try {
+                TimeUnit.SECONDS.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             driver.findElement(By.xpath(lstSecondLevelList.get(i))).click();
             if (i >= lstSecondLevelList.size())                                                          //Здесь должен быть размер списка для прокликивания
                 break;
