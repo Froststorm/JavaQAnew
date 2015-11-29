@@ -63,7 +63,7 @@ public class MyNewTest {
                 }
                 List<WebElement> allElementsList = driver.findElements(By.xpath(item));
 
-                System.out.println(lstIterateLevels.size());                                               //Здесь выводится размер листа
+                System.out.println("Current element list size :" + allElementsList.size());                                               //Здесь выводится размер листа
                 System.out.println(item);
 
                 if (i >= allElementsList.size())                                                          //Здесь должен быть размер списка для прокликивания
