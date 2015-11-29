@@ -1,7 +1,10 @@
+import com.google.gson.annotations.Until;
+import org.apache.tools.ant.taskdefs.WaitFor;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -53,16 +56,21 @@ public class MyNewTest {
             String item = (String) lstIterateLevel;
 
             for (int i = 0; true; i++) {
-                List<WebElement> allElementsList = driver.findElements(By.xpath(item));
-
-                System.out.println(lstIterateLevel);                                               //Здесь выводится размер листа
-
-                if (i >= allElementsList.size())                                                          //Здесь должен быть размер списка для прокликивания
-                    break;
 
                 if (item.equals(strThirdLevelList)) {
                     driver.get(strAllYahoo);
                 }
+                if (item.equals(strSecondLevelList)){
+                    driver.findElement(By.xpath(strMoreYahoo)).click();
+
+                }
+                List<WebElement> allElementsList = driver.findElements(By.xpath(item));
+
+                System.out.println(lstIterateLevels.size());                                               //Здесь выводится размер листа
+                System.out.println(item);
+
+                if (i >= allElementsList.size())                                                          //Здесь должен быть размер списка для прокликивания
+                    break;
 
                 allElementsList.get(i).click();
 
