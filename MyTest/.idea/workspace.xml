@@ -7,15 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bfe0525-c4de-4e3a-8fbe-e6d3d4d1a705" name="Default" comment="Переделал 2 уровень в отдельный тест">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/MyNewTest.class" afterPath="$PROJECT_DIR$/target/test-classes/MyNewTest.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/MytestMethod.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MyNewTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyNewTest.java" />
     </list>
     <ignored path="MyTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="META-INF/MANIFEST.MF" />
+    <ignored path=".idea/artifacts/MyTest_jar.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +37,7 @@
       <file leaf-file-name="MyNewTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45555556">
+            <state vertical-scroll-proportion="2.9518518">
               <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -828,7 +829,7 @@
       <workItem from="1448623885330" duration="2777000" />
       <workItem from="1448640341084" duration="514000" />
       <workItem from="1448715529025" duration="6302000" />
-      <workItem from="1448759530571" duration="24660000" />
+      <workItem from="1448759530571" duration="25541000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1448555878937</created>
@@ -932,7 +933,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448762812282</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="подправил цикл">
+      <created>1448784910135</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1448784910135</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -968,7 +975,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76845000" />
+    <option name="totallyTimeSpent" value="77726000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1033,6 +1040,7 @@
     <MESSAGE value="подчистил немного" />
     <MESSAGE value="smallchanges" />
     <MESSAGE value="Метод работает со всеми 3мя уровнями" />
+    <MESSAGE value="подправил цикл" />
     <MESSAGE value="Переделал 2 уровень в отдельный тест" />
     <option name="LAST_COMMIT_MESSAGE" value="Переделал 2 уровень в отдельный тест" />
   </component>
@@ -1373,14 +1381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-leg-rc/2.48.2/selenium-leg-rc-2.48.2-sources.jar!/com/thoughtworks/selenium/webdriven/commands/SeleniumSelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21428572">
@@ -1405,9 +1405,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6614786">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyNewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45555556">
+        <state vertical-scroll-proportion="2.9518518">
           <caret line="97" column="9" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
