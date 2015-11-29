@@ -22,14 +22,6 @@ public class MyNewTest {
     String strFirstLevelList = "//*[@id='default-p_30345789-bd']/ul[1]/li[*]/a/span";
     String strThirdLevelList = "//*[@id='main-mod']/div[*]/dl[*]/dd[*]/a";
     String strSecondLevelList="//*[@id='Navigation']//li//li//a";
-
-    List<String> lstSecondLevelList = new ArrayList<String>(Arrays.asList("(//a[contains(text(),'Answers')])[2]",
-            "//a[contains(text(),'Careers')]", "(//a[contains(text(),'Celebrity')])[2]", "//a[contains(text(),'Fantasy Baseball')]",
-            "//a[contains(text(),'Fantasy Sports')]", "(//a[contains(text(),'Flickr')])[2]", "(//a[contains(text(),'Games')])[2]",
-            "(//a[contains(text(),'Groups')])[2]", "(//a[contains(text(),'Horoscopes')]", "(//a[contains(text(),'Local')]",
-            "//a[contains(text(),'Messenger')]", "(//a[contains(text(),'Music')])[2]", "(//a[contains(text(),'My Yahoo')])[2]",
-            "(//a[contains(text(),'Search')])[2]", "(//a[contains(text(),'Small Business')]"));
-
     List<Object> lstIterateLevels = new ArrayList<Object>(Arrays.asList(strThirdLevelList,strSecondLevelList,strFirstLevelList));
 
 
