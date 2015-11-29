@@ -30,7 +30,7 @@ public class MyNewTest {
             "//a[contains(text(),'Messenger')]", "(//a[contains(text(),'Music')])[2]", "(//a[contains(text(),'My Yahoo')])[2]",
             "(//a[contains(text(),'Search')])[2]", "(//a[contains(text(),'Small Business')]"));
 
-    List<Object> lstIterateLevels = new ArrayList<Object>(Arrays.asList(strSecondLevelList,strFirstLevelList,strThirdLevelList));
+    List<Object> lstIterateLevels = new ArrayList<Object>(Arrays.asList(strThirdLevelList,strSecondLevelList,strFirstLevelList));
 
 
     @BeforeTest
@@ -97,49 +97,49 @@ public class MyNewTest {
         }
     }
 
-    @Test(priority = 1)
-    public void TestMethod2() throws Exception {
-
-
-        int i = 0;
-        while (true) {
-            System.out.println(lstSecondLevelList.get(i)+"\n");
-
-            driver.findElement(By.xpath(strMoreYahoo)).click();
-            try {
-                TimeUnit.SECONDS.sleep(1);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            driver.findElement(By.xpath(lstSecondLevelList.get(i))).click();
-            if (i >= lstSecondLevelList.size())                                                          //Здесь должен быть размер списка для прокликивания
-                break;
-
-
-            //------------------------------------------------------------------------------------------------------
-
-            //Блок служебной консольной инфы
-            long startTime = System.currentTimeMillis() / 1000;
-            System.out.println("The start time is : " + startTime);
-
-            System.out.println("Current page is: " + driver.getTitle());
-
-            long endTime = System.currentTimeMillis() / 1000;
-            System.out.println("Page load time in seconds " + (endTime - startTime));
-            if (endTime - startTime > 7) {
-                System.out.println("Page load time exceeded");
-            } else {
-                System.out.println("Page load time normal");
-            }
-            System.out.println("Pass :" + (i + 1));
-            System.out.println("----------------------------------------------\n");
-
-            driver.navigate().back();
-            //Блок инфы закончился
-
-            i++;
-        }
-    }
+//    @Test(priority = 1)
+//    public void TestMethod2() throws Exception {
+//
+//
+//        int i = 0;
+//        while (true) {
+//            System.out.println(lstSecondLevelList.get(i)+"\n");
+//
+//            driver.findElement(By.xpath(strMoreYahoo)).click();
+//            try {
+//                TimeUnit.SECONDS.sleep(1);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//            driver.findElement(By.xpath(lstSecondLevelList.get(i))).click();
+//            if (i >= lstSecondLevelList.size())                                                          //Здесь должен быть размер списка для прокликивания
+//                break;
+//
+//
+//            //------------------------------------------------------------------------------------------------------
+//
+//            //Блок служебной консольной инфы
+//            long startTime = System.currentTimeMillis() / 1000;
+//            System.out.println("The start time is : " + startTime);
+//
+//            System.out.println("Current page is: " + driver.getTitle());
+//
+//            long endTime = System.currentTimeMillis() / 1000;
+//            System.out.println("Page load time in seconds " + (endTime - startTime));
+//            if (endTime - startTime > 7) {
+//                System.out.println("Page load time exceeded");
+//            } else {
+//                System.out.println("Page load time normal");
+//            }
+//            System.out.println("Pass :" + (i + 1));
+//            System.out.println("----------------------------------------------\n");
+//
+//            driver.navigate().back();
+//            //Блок инфы закончился
+//
+//            i++;
+//        }
+//    }
 
 
     @AfterTest
