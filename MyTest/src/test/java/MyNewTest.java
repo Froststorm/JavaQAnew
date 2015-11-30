@@ -38,7 +38,7 @@ public class MyNewTest {
     public void TestMethod1() {
 
         /**
-         * Метод Может прокликивать все 3 уровня , но нужно придумать правильное условие.
+         * Метод может прокликивать все 3 уровня.
          * Время загрузки страницы и сообщения о выходе за пределы
          */
         for (Object lstIterateLevel : lstIterateLevels) {
@@ -47,7 +47,7 @@ public class MyNewTest {
             for (int i = 0; true; i++) {
 
                 if (item.equals(strThirdLevelList)) {
-                    driver.get(strAllYahoo);
+                    driver.navigate().to(strAllYahoo);
                 }
 
                 List<WebElement> allElementsList = driver.findElements(By.xpath(item));
@@ -58,24 +58,14 @@ public class MyNewTest {
                         driver.navigate().back();
                         allElementsList.get(i).click();
                     }
-
                 }
-
-
-
                 System.out.println("Current element list size :" + allElementsList.size());                //Здесь выводится размер листа
                 System.out.println(item);
 
                 if (i >= allElementsList.size())                                                            //Здесь должен быть размер списка для прокликивания
                     break;
-
                 allElementsList.get(i).click();
-
-
-
-
                 //------------------------------------------------------------------------------------------------------
-
                 //Блок служебной консольной инфы
                 long startTime = System.currentTimeMillis() / 1000;
                 System.out.println("The start time is : " + startTime);
