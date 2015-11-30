@@ -21,8 +21,8 @@ public class MyNewTest {
     String strAllYahoo = "https://everything.yahoo.com/";
     String strFirstLevelList = "//*[@id='default-p_30345789-bd']/ul[1]/li[*]/a/span";
     String strThirdLevelList = "//*[@id='main-mod']/div[*]/dl[*]/dd[*]/a";
-    String strSecondLevelList="//*[@id='Navigation']//li//li//a";
-    List<Object> lstIterateLevels = new ArrayList<Object>(Arrays.asList(strThirdLevelList,strSecondLevelList,strFirstLevelList));
+    String strSecondLevelList = "//*[@id='Navigation']//li//li//a";
+    List<Object> lstIterateLevels = new ArrayList<Object>(Arrays.asList(strFirstLevelList,strThirdLevelList, strSecondLevelList));
 
 
     @BeforeTest
@@ -49,16 +49,19 @@ public class MyNewTest {
                 if (item.equals(strThirdLevelList)) {
                     driver.get(strAllYahoo);
                 }
-                if (item.equals(strSecondLevelList)){
+                if (item.equals(strSecondLevelList)) {
                     driver.findElement(By.xpath(strMoreYahoo)).click();
+                    if (driver.getCurrentUrl().equals(strAllYahoo)){
+                        driver.navigate().back();
+                    }
 
                 }
                 List<WebElement> allElementsList = driver.findElements(By.xpath(item));
 
-                System.out.println("Current element list size :" + allElementsList.size());                                               //Здесь выводится размер листа
+                System.out.println("Current element list size :" + allElementsList.size());                //Здесь выводится размер листа
                 System.out.println(item);
 
-                if (i >= allElementsList.size())                                                          //Здесь должен быть размер списка для прокликивания
+                if (i >= allElementsList.size())                                                            //Здесь должен быть размер списка для прокликивания
                     break;
 
                 allElementsList.get(i).click();
@@ -88,8 +91,6 @@ public class MyNewTest {
 
         }
     }
-
-
 
 
     @AfterTest
