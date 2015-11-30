@@ -22,7 +22,7 @@ public class MyNewTest {
     String strFirstLevelList = "//*[@id='default-p_30345789-bd']/ul[1]/li[*]/a/span";
     String strThirdLevelList = "//*[@id='main-mod']/div[*]/dl[*]/dd[*]/a";
     String strSecondLevelList = "//*[@id='Navigation']//li//li//a";
-    List<Object> lstIterateLevels = new ArrayList<Object>(Arrays.asList(strFirstLevelList,strThirdLevelList, strSecondLevelList));
+    List<Object> lstIterateLevels = new ArrayList<Object>(Arrays.asList(strFirstLevelList,strThirdLevelList,strSecondLevelList));
 
 
     @BeforeTest
@@ -49,14 +49,19 @@ public class MyNewTest {
                 if (item.equals(strThirdLevelList)) {
                     driver.get(strAllYahoo);
                 }
+
+                List<WebElement> allElementsList = driver.findElements(By.xpath(item));
+
                 if (item.equals(strSecondLevelList)) {
                     driver.findElement(By.xpath(strMoreYahoo)).click();
                     if (driver.getCurrentUrl().equals(strAllYahoo)){
                         driver.navigate().back();
+                        allElementsList.get(i).click();
                     }
 
                 }
-                List<WebElement> allElementsList = driver.findElements(By.xpath(item));
+
+
 
                 System.out.println("Current element list size :" + allElementsList.size());                //Здесь выводится размер листа
                 System.out.println(item);
@@ -65,6 +70,8 @@ public class MyNewTest {
                     break;
 
                 allElementsList.get(i).click();
+
+
 
 
                 //------------------------------------------------------------------------------------------------------
